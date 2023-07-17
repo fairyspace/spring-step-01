@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2023-07-14T03:11:00.491Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="9oS7iZ-qVpGpKzvW4dxo" version="21.6.1" type="device">
+  <diagram name="第 1 页" id="PoqUMuXy_MstU615334a">
+    <mxGraphModel dx="918" dy="587" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gok4NgtjIcmaXpCijLfn-15" value="BeanDefinition" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F694C1;strokeColor=#AF45ED;whiteSpace=wrap;labelBorderColor=none;strokeWidth=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.09,1,0,0,0],[0.14,1,0,0,0],[0.17,1,0,0,0],[0.18,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.27,1,0,0,0],[0.29,1,0,0,0],[0.33,1,0,0,0],[0.36,1,0,0,0],[0.43,1,0,0,0],[0.45,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.55,1,0,0,0],[0.57,1,0,0,0],[0.64,1,0,0,0],[0.67,1,0,0,0],[0.71,1,0,0,0],[0.73,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[0.82,1,0,0,0],[0.83,1,0,0,0],[0.86,1,0,0,0],[0.91,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];rounded=1;labelBackgroundColor=none;fontColor=#095C86;" parent="1" vertex="1">
+          <mxGeometry x="262" y="80" width="380" height="52" as="geometry">
+            <mxRectangle x="254" y="121" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gok4NgtjIcmaXpCijLfn-16" value="- bean: Object" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;labelBorderColor=none;fontStyle=0;rounded=1;labelBackgroundColor=none;fontColor=#095C86;" parent="Gok4NgtjIcmaXpCijLfn-15" vertex="1">
+          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PG_ytUh3_s47SWWALbNL-8" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.491;entryY=1.084;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;labelBackgroundColor=none;strokeColor=#60E696;fontColor=default;" parent="1" source="Gok4NgtjIcmaXpCijLfn-63" target="Gok4NgtjIcmaXpCijLfn-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AZC4j91YAzYp9-6fn-h9-1" value="依赖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PG_ytUh3_s47SWWALbNL-8">
+          <mxGeometry x="-0.0544" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gok4NgtjIcmaXpCijLfn-63" value="BeanFactory" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#F694C1;strokeColor=#AF45ED;whiteSpace=wrap;labelBorderColor=none;swimlaneLine=0;shadow=0;glass=0;rotation=0;direction=east;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.09,0,0,0,0],[0.18,0,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.27,0,0,0,0],[0.36,0,0,0,0],[0.45,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.55,0,0,0,0],[0.64,0,0,0,0],[0.73,0,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[0.82,0,0,0,0],[0.91,0,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;rounded=1;labelBackgroundColor=none;fontColor=#095C86;" parent="1" vertex="1">
+          <mxGeometry x="258" y="190" width="384" height="120" as="geometry">
+            <mxRectangle x="254" y="270" width="110" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gok4NgtjIcmaXpCijLfn-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#AF45ED;whiteSpace=wrap;labelBorderColor=none;fontStyle=0;rounded=1;labelBackgroundColor=none;fontColor=#095C86;" parent="Gok4NgtjIcmaXpCijLfn-63" vertex="1">
+          <mxGeometry y="26" width="384" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Gok4NgtjIcmaXpCijLfn-64" value="- bean: Object" style="text;strokeColor=#AF45ED;fillColor=#F694C1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=1;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;labelBorderColor=none;fontStyle=0;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;rounded=1;labelBackgroundColor=none;fontColor=#095C86;" parent="Gok4NgtjIcmaXpCijLfn-63" vertex="1">
+          <mxGeometry y="34" width="384" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Gok4NgtjIcmaXpCijLfn-68" value="- registerBeanDefinition(String name,BeanDefinition beandefinition)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;labelBorderColor=none;fontStyle=0;rounded=1;labelBackgroundColor=none;fontColor=#095C86;" parent="Gok4NgtjIcmaXpCijLfn-63" vertex="1">
+          <mxGeometry y="60" width="384" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Gok4NgtjIcmaXpCijLfn-66" value="- getBean(String name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;labelBorderColor=none;fontStyle=0;rounded=1;labelBackgroundColor=none;fontColor=#095C86;" parent="Gok4NgtjIcmaXpCijLfn-63" vertex="1">
+          <mxGeometry y="94" width="384" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
